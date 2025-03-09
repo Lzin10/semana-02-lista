@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2b2727;
+}
+*{color:rgb(0, 0, 0)
+    ;}
+.container {
+    display: flex;
+    max-width: 900px;
+    margin: 40px auto;
+    background: white;
+    box-shadow: 0px 0px 10px rgba(32, 255, 2, 0.1);
+}
+
+.sidebar {
+    width: 30%;
+    background: #4e742f;
+    padding: 20px;
+    text-align: center;
+}
+
+.sidebar img {
+    width: 190px;
+    height:190px;
+    margin-bottom: 10px;
+}
+
+.sidebar h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.sidebar h3 {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.content {
+    width: 70%;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 26px;
+    margin: 0;
+}
+
+header h2 {
+    font-size: 18px;
+    margin: 5px 0;
+    color: rgb(32, 23, 23);
+}
+
+section {
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 18px;
+    border-bottom: 2px solid #4e4343;
+    padding-bottom: 5px;
+}
+
+.job, .education {
+    margin: 10px 0;
+}
+
+h4 {
+    font-size: 16px;
+    margin: 5px 0;
+}
